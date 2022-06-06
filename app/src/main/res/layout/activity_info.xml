@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".InfoActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="    Bu hesaplamalar Geleneksel yöntemlere göre yapılır. Çin takvimi ile farklılık gösterir. %80 ‘e varan tutarlılık beklenmektedir.
+\n    1-Gebe Kalma Gününe göre: Hesaplama için gebeliğin oluştuğu gün seçilmelidir.
+\n    2-Çocuğun Doğum Tarihine göre: Beklenen doğum tarihi seçilir. Son adet Tarihine 280 gün eklenir.
+\n    3-Son Adet Tarihine göre: Bu yöntemde Adetin başladığı günden 14 gün sonra gebelik oluştuğu varsayılıyor. Eğer bu dönemde gebe kalınırsa olası cinsiyet tahmin edilir
+\n    4-Hicri Takvime Göre: Diğer hesaplamalar güneş takvimine göre yapılmıştır. Bu yöntemde ay takvimi esas alınıyor.
+\n    5- Kız/Erkek İstiyorum: Bu Hesaplamada verilen tarihler arasında gebe kalınırsa, istenen cinsiyetin oluşma ihtimali yüksek olacağı varsayılır.
+"
+        android:textColor="#0C1C02"
+        android:textSize="20sp"
+
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
